@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="com-xs-12">
+        <form>
+            <div class="row">
+                <div class="col-sm-5" form-group>
+                    <label for="quatity">Enter Quantity</label>
+                    <input type="text" id="quatity" class="form-control" #quatityInput>
+                    <button type="button" (click)="onAdd(quatityInput.value)">Add</button>
+                </div>
+            </div>
+            <h5>amount:{{onAmount}}</h5>
+            
+        </form>
+    </div>
+</div>
+
